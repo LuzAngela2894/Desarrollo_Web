@@ -1,0 +1,28 @@
+@import	url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+#login {
+    margin: 0;
+    padding: 0;
+    background-color: #50a9b2;
+    height: 100vh;
+  }
+
+#login .container #login-row #login-column #login-box {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 110px;
+    max-width: 600px;
+    height: 350px;
+    border: 1px solid #9C9C9C;
+    background-color: #cfcfcf;
+    border-radius: 20px;
+  }
+
+#login .container #login-row #login-column #login-box #login-form {
+    padding: 30px;
+  }
+
+#login #login-form {
+    display: flex;
+    flex-direction: column;
+  }

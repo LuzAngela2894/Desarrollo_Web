@@ -1,0 +1,135 @@
+@import	url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*body {
+    background-image: url(../img/dinosaurio.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}*/
+
+.panel-header{
+    font-size: larger;
+}
+
+.dialog-header{
+    font-size: large;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.contenedor .dash {
+	width: 100px;
+	height: 100px;
+}
+
+.contenedor {
+	margin: 5rem;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+hr.one {
+	height: 15px;
+	border-radius: 10px;
+	background: #14c7b8;
+	width: auto;
+	border: none;
+}
+
+h1 {
+	color: #764e80;
+	font-weight: bold;
+	font-size: 3rem;
+	opacity: 0.8;
+	font-family: 'Montserrat', sans-serif;
+}
+
+main {
+	font-family: "Poppins", sans-serif;
+	min-height: 100vh;
+	background: linear-gradient(to right top, #14c7b8, #764e80);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.glass {
+	background: white;
+	min-height: 60vh;
+	width: auto;
+	background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7),
+		rgba(255, 255, 255, 0.3));
+	border-radius: 2rem;
+	z-index: 1;
+	backdrop-filter: blur(2rem);
+	display: flex;
+}
+
+.circle1, .circle2 {
+	background: white;
+	background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8),
+		rgba(255, 255, 255, 0.3));
+	height: 20rem;
+	width: 20rem;
+	position: absolute;
+	border-radius: 50%;
+}
+
+.circle1 {
+	top: 5%;
+	right: 15%;
+}
+
+.circle2 {
+	bottom: 5%;
+	left: 10%;
+}
+
+.boton {
+	display: flex;
+	background: linear-gradient(to left top, rgba(255, 255, 255, 0.8),
+		rgba(255, 255, 255, 0.5));
+	border-radius: 1rem;
+	margin: 2rem 0rem;
+	padding: 2rem;
+	box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+	justify-content: space-between;
+}
+
+.container_botones .boton ul li a {
+	display: block;
+	padding: 0 10px;
+	background: #14c7b8;
+	color: #fff;
+	line-height: 100px;
+	font-size: 50px;
+	box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
+	transition: .2s;
+	border-radius: 5px;
+	font-size: 15px;
+	width: 145px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+.container_botones  ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.container_botones  ul :hover a {
+	filter: blur(2px);
+}
+
+.container_botones  ul li a:hover {
+	transform: translatey(-3px) scale(1.05);
+	box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
+	filter: none;
+}
+
+.container_botones  ul li .Usuarios:hover {
+	background: var(-Usuarios);
+}

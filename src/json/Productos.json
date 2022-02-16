@@ -1,0 +1,146 @@
+[
+    {
+        "codigoproducto": 1,
+        "nombreproducto": "Melocotones",
+        "nitproveedor": 1,
+        "preciocompra": 2550.0,
+        "ivacompra": 0.19,
+        "precioventa": 3035.0
+    },
+    {
+        "codigoproducto": 2,
+        "nombreproducto": "Manzanas",
+        "nitproveedor": 3,
+        "preciocompra": 1810.0,
+        "ivacompra": 0.19,
+        "precioventa": 2154.0
+    },
+    {
+        "codigoproducto": 3,
+        "nombreproducto": "Platanos",
+        "nitproveedor": 4,
+        "preciocompra": 2968.0,
+        "ivacompra": 0.19,
+        "precioventa": 3532.0
+    },
+    {
+        "codigoproducto": 4,
+        "nombreproducto": "Lechuga",
+        "nitproveedor": 3,
+        "preciocompra": 2978.0,
+        "ivacompra": 0.19,
+        "precioventa": 3544.0
+    },
+    {
+        "codigoproducto": 5,
+        "nombreproducto": "Tomates",
+        "nitproveedor": 1,
+        "preciocompra": 1273.0,
+        "ivacompra": 0.19,
+        "precioventa": 1515.0
+    },
+    {
+        "codigoproducto": 6,
+        "nombreproducto": "Calabaza",
+        "nitproveedor": 1,
+        "preciocompra": 2135.0,
+        "ivacompra": 0.19,
+        "precioventa": 2536.0
+    },
+    {
+        "codigoproducto": 7,
+        "nombreproducto": "Apio",
+        "nitproveedor": 2,
+        "preciocompra": 1924.0,
+        "ivacompra": 0.19,
+        "precioventa": 2290.0
+    },
+    {
+        "codigoproducto": 8,
+        "nombreproducto": "Pepino",
+        "nitproveedor": 2,
+        "preciocompra": 1095.0,
+        "ivacompra": 0.19,
+        "precioventa": 1304.0
+    },
+    {
+        "codigoproducto": 9,
+        "nombreproducto": "Champinones",
+        "nitproveedor": 2,
+        "preciocompra": 1146.0,
+        "ivacompra": 0.19,
+        "precioventa": 1314.0
+    },
+    {
+        "codigoproducto": 10,
+        "nombreproducto": "Leche",
+        "nitproveedor": 5,
+        "preciocompra": 2115.0,
+        "ivacompra": 0.19,
+        "precioventa": 2516.0
+    },
+    {
+        "codigoproducto": 11,
+        "nombreproducto": "Queso",
+        "nitproveedor": 5,
+        "preciocompra": 2657.0,
+        "ivacompra": 0.19,
+        "precioventa": 3161.0
+    },
+    {
+        "codigoproducto": 12,
+        "nombreproducto": "Huevos",
+        "nitproveedor": 2,
+        "preciocompra": 1244.0,
+        "ivacompra": 0.19,
+        "precioventa": 1481.0
+    },
+    {
+        "codigoproducto": 13,
+        "nombreproducto": "Requeson",
+        "nitproveedor": 1,
+        "preciocompra": 1432.0,
+        "ivacompra": 0.19,
+        "precioventa": 1705.0
+    },
+    {
+        "codigoproducto": 14,
+        "nombreproducto": "Crema agria",
+        "nitproveedor": 1,
+        "preciocompra": 1485.0,
+        "ivacompra": 0.19,
+        "precioventa": 1767.0
+    },
+    {
+        "codigoproducto": 15,
+        "nombreproducto": "Yogur",
+        "nitproveedor": 5,
+        "preciocompra": 1494.0,
+        "ivacompra": 0.19,
+        "precioventa": 1778.0
+    },
+    {
+        "codigoproducto": 16,
+        "nombreproducto": "Ternera",
+        "nitproveedor": 5,
+        "preciocompra": 2933.0,
+        "ivacompra": 0.19,
+        "precioventa": 3490.0
+    },
+    {
+        "codigoproducto": 17,
+        "nombreproducto": "Salmon salvaje",
+        "nitproveedor": 5,
+        "preciocompra": 1187.0,
+        "ivacompra": 0.19,
+        "precioventa": 1413.0
+    },
+    {
+        "codigoproducto": 18,
+        "nombreproducto": "Patas de cangrejo",
+        "nitproveedor": 1,
+        "preciocompra": 2995.0,
+        "ivacompra": 0.19,
+        "precioventa": 3564.0
+    }
+]

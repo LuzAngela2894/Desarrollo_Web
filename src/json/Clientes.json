@@ -1,0 +1,45 @@
+{"results":[
+        {
+            "cedulacliente": 1,
+            "nombrecliente": "cliente1",
+            "emailcliente": "cliente1@tienda.com",
+            "direccioncliente": "avenida 85",
+            "telefonocliente": "123456"
+        },
+        {
+            "cedulacliente": 2,
+            "nombrecliente": "cliente2",
+            "emailcliente": "cliente2@tienda.com",
+            "direccioncliente": "avenida 89",
+            "telefonocliente": "123456"
+        },
+        {
+            "cedulacliente": 3,
+            "nombrecliente": "cliente3",
+            "emailcliente": "cliente3@tienda.com",
+            "direccioncliente": "avenida 200",
+            "telefonocliente": "123456"
+        },
+        {
+            "cedulacliente": 4,
+            "nombrecliente": "cliente4",
+            "emailcliente": "cliente4@tienda.com",
+            "direccioncliente": "avenida 520",
+            "telefonocliente": "123456"
+        },
+        {
+            "cedulacliente": 5,
+            "nombrecliente": "cliente5",
+            "emailcliente": "cliente5@tienda.com",
+            "direccioncliente": "avenida siempre viva",
+            "telefonocliente": "123456"
+        },
+        {
+            "cedulacliente": 6,
+            "nombrecliente": "cliente6",
+            "emailcliente": "cliente6@tienda.com",
+            "direccioncliente": "avenida nueva",
+            "telefonocliente": "123456"
+        }
+    ]
+}
