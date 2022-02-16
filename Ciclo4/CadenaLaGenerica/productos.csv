@@ -1,0 +1,19 @@
+codigoproducto,nombreproducto,nitproveedor,preciocompra,ivacompra,precioventa
+1,Melocotones,1,2550,0.19,3035
+2,Manzanas,3,1810,0.19,2154
+3,Platanos,4,2968,0.19,3532
+4,Lechuga,3,2978,0.19,3544
+5,Tomates,1,1273,0.19,1515
+6,Calabaza,1,2135,0.19,2536
+7,Apio,2,1924,0.19,2290
+8,Pepino,2,1095,0.19,1304
+9,Champinones,2,1146,0.19,1314
+10,Leche,5,2115,0.19,2516
+11,Queso,5,2657,0.19,3161
+12,Huevos,2,1244,0.19,1481
+13,Requeson,1,1432,0.19,1705
+14,Crema agria,1,1485,0.19,1767
+15,Yogur,5,1494,0.19,1778
+16,Ternera,5,2933,0.19,3490
+17,Salmon salvaje,5,1187,0.19,1413
+18,Patas de cangrejo,1,2995,0.19,3564
