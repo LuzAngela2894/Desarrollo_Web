@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Desarrollo_Web
+Ciclo 4 UEB MINTIC Desarrollo de Aplicaciones Web (Java, Spring Boot, JavaScript y React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**PROYECTO DE DESARROLLO DE APLICACIÓN WEB PARA GESTIONAR LA CADENA DE ALMACENES "LA GENÉRICA"**
 
-## Available Scripts
+Cuando los negocios crecen, diversifican sus productos y servicios, y se expanden geográficamente, es necesario realizar consideraciones y replanteamientos de diseño para su crecimiento a nivel de los sistemas de información con los que cuentan para efectos de que, igualmente, crezcan con ellos y brinden respuestas a las nuevas realidades para mantener la competitividad.
 
-In the project directory, you can run:
+En virtud de lo anterior, retomaremos el proyecto realizado en el ciclo 3, el cual, como sabemos era el desarrollo de software para una tienda que provee productos y servicios, que denominamos “tienda genérica”. Ahora, la tienda se convierte en la cadena de almacenes llamada “La Genérica”, la cual surgió como resultado del gran éxito que tuvo el negocio, por lo que la gerencia determinó ampliar su portafolio de productos y servicios, y expandir su operación inicial, la cual estaba en Bogotá, abriendo sucursales en Cali y Medellín.
 
-### `npm start`
+EL EQUIPO de beneficiarios del Ciclo 4A, ha sido contratado por la cadena de almacenes para la realización el desarrollo de la aplicación mediante la implementación de los conceptos vistos en este Ciclo, y de acuerdo con las especificaciones de arquitectura, y cumpliendo con los requerimientos que en este documento se estipulan.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Se identifica a continuación los requerimientos para la realización del software, consistente en los siguientes módulos y requerimientos por módulo:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**1. Módulo de Gestión de Productos.**
+EL EQUIPO deberá desarrollar el módulo de gestión de los productos que se venden en la tienda, para lo cual se deberá cargar estos productos de un archivo plano (de texto).
 
-### `npm test`
+**2. Módulo de Gestión de Ventas.**
+EL EQUIPO deberá desarrollar el módulo de gestión de las ventas que se realicen en la tienda. El sistema, buscará los datos del cliente por cédula. Posteriormente, el sistema permitirá escribir el código del producto, y se visualizará el nombre de este en pantalla. Se digitará la cantidad a vender, y generará el valor total de venta por producto. El sistema permitirá que se realice la misma operación con otros productos hasta que se le dé la opción de totalizar. En ese momento, el sistema calculará el valor del total de IVA para tres (3) productos, según el valor de IVA definido para cada producto, y luego dará el valor total con IVA.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+El sistema deberá registrar la venta con los siguientes datos: código de venta – este es un valor consecutivo, cedula del cliente, valor total de venta, valor de IVA, valor total más IVA, código de producto, cantidad, valor unitario (valor de venta), y valor total por producto en una colección llamada db_ventas. Finalmente, el sistema deberá mostrar un mensaje de confirmación de la transacción.
 
-### `npm run build`
+**3. Módulo de Registro de Compras.**
+EL EQUIPO deberá desarrollar el módulo de gestión de los clientes de la tienda, para lo cual se deberán tener las opciones de crear cliente, leer clientes, actualizar datos de cliente, y borrar cliente. Estos datos se almacenarán en la colección llamada db_clientes, y los datos a gestionar son: cedula, nombre completo, dirección, teléfono, y correo electrónico.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**4. Módulo DE Interfaz Web**
+EL EQUIPO deberá desarrollar el módulo que permita la interacción del sistema con el usuario, para lo cual, se deberá construir el ingreso al sistema, una vez se haya realizado la validación por nombre de usuario y contraseña. Deberá tenerse un usuario por defecto con el nombre de admininicial, y contraseña admin123456 para su ingreso.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Finalmente, en este módulo se hará la integración de los módulos de productos, compras, y ventas, así como el de la consolidación de tiendas satélite (para el caso de Bogotá), para que el usuario pueda realizar todos los procesos de interacción mediante opciones de menú.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**5. Módulo de Consolidación.**
+EL EQUIPO deberá desarrollar el módulo de consolidación de las compras y ventas de las tiendas satélite, y que sean registradas en la ciudad de Bogotá. El sistema deberá realizar las consultas de compras y ventas del día de las ciudades satélites, las cuales se registrarán en la colección llamada db_consolidado, con los siguientes datos: ciudad satélite y valor total ventas.
